@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8e7cc3;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+img {
+    margin-left: 5%;
+    width: 55px;
+    height: 50px;
+}
+
+li {
+    display: inline;
+    text-align: left;
+}
+
+li a {
+    color: #ffffff;
+    padding: 10px;
+    display: inline-flex;
+}
+
+section {
+    width: 200px;
+    height: 220px;
+    padding-top: 30px;
+    border-radius: 40px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#card-verde {
+    background-color: #6aa84f;
+}
+
+#card-azul {
+    background-color: #6fa8dc;
+}
+
+#card-laranja {
+    background-color: #f6b26b;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #999999;
+    color: #8f8f8f;
+    text-align: center;
+}
