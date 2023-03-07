@@ -37,16 +37,20 @@ img {
     height: 50px;
 }
 
-li {
-    display: inline;
-    text-align: left;
+nav a {
+    color: #ffffff;
+    padding: 0 8px;
+    text-decoration: none;
 }
 
-li a {
-    color: #ffffff;
-    padding: 10px;
-    display: inline-flex;
+nav a:not(:last-child) {
+    border-right: 1px solid #ffffff;
+}   
+
+nav a:hover {
+    text-decoration: underline;
 }
+
 
 section {
     width: 200px;
